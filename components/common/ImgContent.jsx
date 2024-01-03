@@ -1,10 +1,11 @@
 import { styles } from "@/utils/styles";
 import { motion } from "framer-motion";
 import { staggerContainer, slideIn } from "@/utils/motion";
+import Image from "next/image";
 
-const ImgContent = ({ img, title1, title2, children }) => {
+const ImgContent = ({ img, title1, title2, children, alt }) => {
   return (
-    /*  <motion.div
+    <motion.div
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
@@ -15,11 +16,11 @@ const ImgContent = ({ img, title1, title2, children }) => {
         className="md:w-1/2  flex items-center justify-center"
         variants={slideIn("left", "tween", 0.2, 1)}
       >
-        <img
+        <Image
           src={img}
           width={500}
           height={300}
-          alt="image description"
+          alt={alt}
           className="rounded-3xl  object-contain  "
         />
       </motion.div>
@@ -35,8 +36,7 @@ const ImgContent = ({ img, title1, title2, children }) => {
         </div>
         {children}
       </motion.div>
-    </motion.div> */
-    <h2>hola</h2>
+    </motion.div>
   );
 };
 
