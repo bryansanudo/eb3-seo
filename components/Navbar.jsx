@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 import { savelanguage } from "@/store/slice";
 import { useDispatch } from "react-redux";
 
-const Navbar = ({ setLanguage }) => {
+const Navbar = () => {
   const language = useSelector((state) => state.values.languages);
   const dispatch = useDispatch();
   const navbar = {
@@ -95,32 +95,32 @@ const Navbar = ({ setLanguage }) => {
   const links = [
     {
       id: 1,
-      link: "/individuals/home",
+      link: "/",
       name: navbarContent.home,
     },
     {
       id: 2,
-      link: "/individuals/about",
+      link: "/about",
       name: navbarContent.about,
     },
     {
       id: 3,
-      link: "/individuals/services",
+      link: "/services",
       name: navbarContent.services,
     },
     {
       id: 5,
-      link: "/individuals/resources",
+      link: "/resources",
       name: navbarContent.resources,
     },
     {
       id: 6,
-      link: "/individuals/contact",
+      link: "/contact",
       name: navbarContent.contact,
     },
     {
       id: 7,
-      link: "/individuals/vacancies",
+      link: "/vacancies",
       name: navbarContent.vacancies,
     },
   ];
