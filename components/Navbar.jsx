@@ -219,7 +219,7 @@ const Navbar = () => {
             height={40}
           />
           <div className="flex items-center">
-            <Link href="/individuals/companies">
+            <Link href="/companies">
               <button className="btn btn-secondary text-[12px] p-2 capitalize hover:scale-105 duration-500 mr-4 hover:bg-gradient-to-r hover:to-secondary hover:from-primary">
                 {navbarContent.looking}
               </button>
