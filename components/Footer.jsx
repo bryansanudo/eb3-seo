@@ -174,10 +174,10 @@ const Footer = () => {
             {footerContent.h3}
           </header>
           <div className="">{footerContent.u1}</div>
-          <Link href="/individuals/privacy-policy">
+          <Link href="/privacy">
             <div className="link link-hover">{footerContent.u2}</div>
           </Link>
-          <Link href="/individuals/terms-services">
+          <Link href="/terms">
             <div className="link link-hover">{footerContent.u3}</div>
           </Link>
         </motion.nav>

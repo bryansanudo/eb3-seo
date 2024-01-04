@@ -13,6 +13,12 @@ import { useDispatch } from "react-redux";
 const Navbar = () => {
   const language = useSelector((state) => state.values.languages);
   const dispatch = useDispatch();
+  const [activeLink, setActiveLink] = useState("/");
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   const navbar = {
     en: {
       home: "home",
@@ -85,10 +91,10 @@ const Navbar = () => {
   };
   const menuContent = menu[language];
 
-  const activeLink = ({ isActive }) =>
+  /*   const activeLink = ({ isActive }) =>
     isActive
       ? " relative after:content-[''] after:absolute after:left-0 after:bottom-[-3px] after:w-full after:h-[2px] after:bg-primary"
-      : "";
+      : ""; */
 
   const [isMenuShown, setIsMenuShown] = useState(false);
 
@@ -197,7 +203,14 @@ const Navbar = () => {
             <ul className="flex gap-6">
               {links.map(({ id, link, name }) => (
                 <Link key={id} href={link}>
-                  <li className="capitalize duration-300 hover:text-primary hover:scale-110 cursor-pointer">
+                  <li
+                    onClick={() => handleLinkClick(link)}
+                    className={`capitalize duration-300 hover:text-primary hover:scale-110 cursor-pointer ${
+                      activeLink === link
+                        ? "relative after:content-[''] after:absolute after:left-0 after:bottom-[-3px] after:w-full after:h-[2px] after:bg-primary"
+                        : ""
+                    }`}
+                  >
                     {name}
                   </li>
                 </Link>
@@ -220,7 +233,10 @@ const Navbar = () => {
           />
           <div className="flex items-center">
             <Link href="/companies">
-              <button className="btn btn-secondary text-[12px] p-2 capitalize hover:scale-105 duration-500 mr-4 hover:bg-gradient-to-r hover:to-secondary hover:from-primary">
+              <button
+                onClick={() => handleLinkClick("")}
+                className="btn btn-secondary text-[12px] p-2 capitalize hover:scale-105 duration-500 mr-4 hover:bg-gradient-to-r hover:to-secondary hover:from-primary"
+              >
                 {navbarContent.looking}
               </button>
             </Link>
@@ -326,7 +342,12 @@ const Navbar = () => {
               href={link}
               key={id}
             >
-              <li className="px-4 capitalize text-left duration-300 hover:text-white hover:scale-110 cursor-pointer">
+              <li
+                onClick={() => handleLinkClick(link)}
+                className={`px-4 capitalize text-left duration-300 hover:text-white hover:scale-110 cursor-pointer ${
+                  activeLink === link ? "text-primary" : ""
+                }`}
+              >
                 {name}
               </li>
             </Link>
