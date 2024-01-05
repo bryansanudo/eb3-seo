@@ -6,9 +6,9 @@ import Footer from "@/components/Footer";
 
 import Providers from "@/store/provider";
 export const metadata = {
-  title: "EB-3 | Home",
-  description: "description",
-  keywords: "keyword-1,keyword-2,keyword-3,keyword-4",
+  title: "Home | Your Key to US Green Card",
+  description:
+    "Unlock your American Dream with EB-3 Workforce Solutions. Seamless EB3 visa process, expert guidance, and tailored solutions for a brighter future. Start your journey today!",
 };
 
 const monte = Montserrat({

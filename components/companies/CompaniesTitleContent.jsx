@@ -14,7 +14,7 @@ const CompaniesTitleContent = ({ title, children }) => {
         variants={zoomIn(0, 1)}
         className="flex flex-col gap-6 my-10 items-center justify-center mx-6"
       >
-        <p className={`${styles.cTitleText} max-w-[700px] `}>{title}</p>
+        <h2 className={`${styles.cTitleText} max-w-[700px] `}>{title}</h2>
         {children}
       </motion.div>
     </motion.div>

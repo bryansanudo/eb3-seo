@@ -15,9 +15,6 @@ import TitleContent from "@/components/common/TitleContent";
 import { styles } from "@/utils/styles";
 
 const Home = () => {
-  /*  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []); */
   const language = useSelector((state) => state.values.languages);
 
   const james = {
@@ -204,8 +201,7 @@ const Home = () => {
           </p>
         </TitleContent>
 
-        {/* Looking to Start
-your American Dream?*/}
+        {/* Looking to Start your American Dream?*/}
         <ImgContent
           img="/contact2.jpg"
           title2={lookingContent.title}
