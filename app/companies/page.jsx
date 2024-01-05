@@ -179,6 +179,7 @@ const CHome = () => {
           img="/James-bg.jpg"
           title1={jamesContent.title1}
           title2={jamesContent.title2}
+          alt="The founder James Baker"
         >
           <p className={`${styles.sectionText}`}>{jamesContent.p1}</p>
         </CompaniesImgContent>
@@ -224,6 +225,7 @@ const CHome = () => {
           img="/home1.jpg"
           title1={wantContent.title1}
           title2={wantContent.title2}
+          alt="Committed Staff EB-3 Workforce Solutions"
         >
           <p className={`${styles.sectionText} mb-6`}>{wantContent.p1}</p>
           <p className={`${styles.sectionText}`}>{wantContent.p2}</p>
@@ -243,6 +245,7 @@ const CHome = () => {
         {/* Struggling to Find Commited Workers? */}
         <CompaniesImgContent
           img="/contact2.jpg"
+          alt="solutions for recruiting personnel"
           title2={strugglingContent.title1}
         >
           <p className={`${styles.sectionText}`}>{strugglingContent.p1}</p>

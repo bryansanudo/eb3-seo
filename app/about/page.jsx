@@ -112,7 +112,7 @@ const AboutPage = () => {
           img="/contact.jpg"
           title1={ourContent.title1}
           title2={ourContent.title2}
-          alt="contact img"
+          alt="our team offers legal assistance for migration to the U.S."
         >
           <p className={`${styles.sectionText} mb-6`}>{ourContent.p1}</p>
           <p className={`${styles.sectionText}`}>{ourContent.p2}</p>

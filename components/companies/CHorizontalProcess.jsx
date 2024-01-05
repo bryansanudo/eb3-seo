@@ -98,7 +98,7 @@ const CHorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process1.png"
-                alt="proces1"
+                alt="Icon Labor Certification filed "
                 width={50}
                 height={50}
                 className="mx-auto"
@@ -129,7 +129,7 @@ const CHorizontalProcess = ({ language }) => {
 
               <Image
                 src="/process/process6.png"
-                alt="proces6"
+                alt="Icon Labor Certification Approved"
                 width={65}
                 height={65}
                 className="hover:scale-110 duration-700"
@@ -150,7 +150,7 @@ const CHorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process7.png"
-                alt="proces7"
+                alt="Icon Dependent fees due I-140 Filed"
                 width={58}
                 height={58}
                 className="hover:scale-110 duration-700"
@@ -171,7 +171,7 @@ const CHorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process8.png"
-                alt="proces8"
+                alt="Icon I-140 Approved"
                 width={62}
                 height={62}
                 className="hover:scale-110 duration-700"
@@ -194,7 +194,7 @@ const CHorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process10.png"
-                alt="proces10"
+                alt="Icon DS-260"
                 width={70}
                 height={70}
                 className="hover:scale-110 duration-700"
@@ -223,7 +223,7 @@ const CHorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process15.png"
-                alt="proces15"
+                alt="Icon Interview scheduled"
                 width={70}
                 height={70}
                 className="hover:scale-110 duration-700 pb-2"
@@ -260,7 +260,7 @@ const CHorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process17.png"
-                alt="proces17"
+                alt="Icon Received visa and travel to us"
                 width={65}
                 height={65}
                 className="hover:scale-110 duration-700 pb-2"
@@ -281,9 +281,9 @@ const CHorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process14.png"
-                alt="proces18"
-                width={70}
-                height={70}
+                alt="Icon Green Card Issued"
+                width={50}
+                height={50}
                 className="hover:scale-110 duration-700 pb-2"
               />
             </label>

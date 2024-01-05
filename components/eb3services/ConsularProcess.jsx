@@ -98,7 +98,7 @@ const ConsularProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process1.png"
-                alt="image1"
+                alt="Icon Labor Certification filed"
                 className=" mx-auto   "
                 width={50}
                 height={50}
@@ -129,7 +129,7 @@ const ConsularProcess = ({ language }) => {
 
               <Image
                 src="/process/process6.png"
-                alt="image6"
+                alt="Icon Labor Certification Approved"
                 className=" hover:scale-110 duration-700   "
                 width={65}
                 height={65}
@@ -150,7 +150,7 @@ const ConsularProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process7.png"
-                alt="image7"
+                alt="Icon Dependent fees due I-140 Filed"
                 className=" hover:scale-110 duration-700   "
                 width={58}
                 height={58}
@@ -171,7 +171,7 @@ const ConsularProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process8.png"
-                alt="image8"
+                alt="Icon I-140 Approved"
                 className=" hover:scale-110 duration-700   "
                 width={62}
                 height={62}
@@ -194,7 +194,7 @@ const ConsularProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process10.png"
-                alt="image10"
+                alt="Icon DS-260 "
                 className=" hover:scale-110 duration-700 pb-2   "
                 width={70}
                 height={70}
@@ -223,7 +223,7 @@ const ConsularProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process15.png"
-                alt="image15"
+                alt="Icon Interview scheduled"
                 className=" hover:scale-110 duration-700  pb-2  "
                 width={70}
                 height={70}
@@ -260,7 +260,7 @@ const ConsularProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process17.png"
-                alt="image17"
+                alt="Icon Received visa and travel to us"
                 className=" hover:scale-110 duration-700  pb-2  "
                 width={65}
                 height={65}
@@ -281,7 +281,7 @@ const ConsularProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process14.png"
-                alt="image18"
+                alt="Icon Green Card Issued"
                 className=" hover:scale-110 duration-700 pb-2   "
                 width={70}
                 height={70}

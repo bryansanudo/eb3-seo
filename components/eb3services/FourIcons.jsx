@@ -41,25 +41,25 @@ const FourIcons = ({ language }) => {
       id: 1,
       title: fourContent.title1,
       icon: "/icons/recruit.jpg",
-      alt: "recruit",
+      alt: "Icon Recruit and vet employer sponsors",
     },
     {
       id: 2,
       title: fourContent.title2,
       icon: "/icons/case.jpg",
-      alt: "case",
+      alt: "Icon Case management services",
     },
     {
       id: 3,
       title: fourContent.title3,
       icon: "/icons/attorney.jpg",
-      alt: "attorney",
+      alt: "Icon Attorney pairing",
     },
     {
       id: 4,
       title: fourContent.title4,
       icon: "/icons/relocation.jpg",
-      alt: "relocation",
+      alt: "Icon Relocation services",
     },
   ];
 

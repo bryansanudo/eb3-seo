@@ -22,9 +22,9 @@ const CompaniesPartners = ({ language }) => {
   return (
     <>
       <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto mt-10 ">
-        <h1 className={`${styles.cTitleText} capitalize `}>
+        <h2 className={`${styles.cTitleText} capitalize `}>
           {partnersContent.title1}
-        </h1>
+        </h2>
       </div>
 
       <section className={`my-4 max-w-[1080px]  `}>

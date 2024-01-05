@@ -80,7 +80,7 @@ const HorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process1.png"
-                alt="process1"
+                alt="Icon Labor Certification filed"
                 width={50}
                 height={50}
                 className="mx-auto"
@@ -111,7 +111,7 @@ const HorizontalProcess = ({ language }) => {
 
               <Image
                 src="/process/process6.png"
-                alt="process6"
+                alt="Icon Labor Certification Approved + Consular fees"
                 width={65}
                 height={65}
                 className="hover:scale-110 duration-700"
@@ -132,7 +132,7 @@ const HorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process7.png"
-                alt="process7"
+                alt="Icon I-140 Filed, I-485 Filed, I-765 Filed"
                 width={58}
                 height={58}
                 className="hover:scale-110 duration-700"
@@ -153,7 +153,7 @@ const HorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process8.png"
-                alt="process8"
+                alt="Icon I-140 Approved"
                 width={62}
                 height={62}
                 className="hover:scale-110 duration-700"
@@ -176,7 +176,7 @@ const HorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process10.png"
-                alt="process10"
+                alt="Icon Employee can begin working for the employer sponsor"
                 width={70}
                 height={70}
                 className="hover:scale-110 duration-700 pb-2"
@@ -220,7 +220,7 @@ const HorizontalProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process14.png"
-                alt="process14"
+                alt="Icon Green Card Issued"
                 width={50}
                 height={50}
                 className="hover:scale-110 duration-700"

@@ -82,7 +82,7 @@ const AdjustmentProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process1.png"
-                alt="image1"
+                alt="Icon Labor Certification filed"
                 className="mx-auto   "
                 width={50}
                 height={50}
@@ -112,7 +112,7 @@ const AdjustmentProcess = ({ language }) => {
               {/* <FillForm className="mx-auto w-[50px]  " /> */}
               <Image
                 src="/process/process6.png"
-                alt="image6"
+                alt="Icon Labor Certification Approved + Consular fees"
                 className=" hover:scale-110 duration-700   "
                 width={65}
                 height={65}
@@ -133,7 +133,7 @@ const AdjustmentProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process7.png"
-                alt="image7"
+                alt="Icon I-140 Filed, I-485 Filed, I-765 Filed"
                 className=" hover:scale-110 duration-700   "
                 width={58}
                 height={58}
@@ -154,7 +154,7 @@ const AdjustmentProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process8.png"
-                alt="image8"
+                alt="Icon I-140 Approved"
                 className=" hover:scale-110 duration-700   "
                 width={62}
                 height={62}
@@ -177,7 +177,7 @@ const AdjustmentProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process10.png"
-                alt="image10"
+                alt="Icon Employee can begin working for the employer sponsor"
                 className=" hover:scale-110 duration-700 pb-2  "
                 width={70}
                 height={70}
@@ -221,7 +221,7 @@ const AdjustmentProcess = ({ language }) => {
             <label tabIndex={0} className=" m-1">
               <Image
                 src="/process/process14.png"
-                alt="image14"
+                alt="Icon Green Card Issued"
                 className=" hover:scale-110 duration-700   "
                 width={50}
                 height={50}

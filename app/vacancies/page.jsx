@@ -7,6 +7,8 @@ import { GrLocation } from "react-icons/gr";
 import { MdPeopleAlt } from "react-icons/md";
 import { useSelector } from "react-redux";
 
+import Image from "next/image";
+
 const VacanciesPage = () => {
   const language = useSelector((state) => state.values.languages);
   const positions = {
@@ -110,6 +112,7 @@ const VacanciesPage = () => {
       location: "Stoughton, Wisconsin",
       website: "https://www.stoughtontrailers.com/",
       v1: "Assembler",
+      alt: "Logo Stoughton Trailers ",
     },
     /* {
       id: 2,
@@ -132,6 +135,7 @@ const VacanciesPage = () => {
       location: "Anchorage, Alaska",
       website: "https://www.subway.com/es-co",
       v1: "Sandwich Artist",
+      alt: "Logo Subway",
     },
     /* {
       id: 3,
@@ -155,6 +159,7 @@ const VacanciesPage = () => {
       website: "https://www.wildernessresort.com/",
       v1: "Room Attendant",
       v2: "Water Park Attendant",
+      alt: "Logo Wilderness Resort",
     },
     {
       id: 7,
@@ -165,6 +170,7 @@ const VacanciesPage = () => {
       website: "https://chulavistaresort.com/",
       v1: "Room Attendant",
       v2: "Water Park Attendant",
+      alt: "Logo Chula Vista",
     },
     {
       id: 8,
@@ -174,6 +180,7 @@ const VacanciesPage = () => {
       location: "Shrewsbury, Massachusetts",
       website: "https://aatransportation.com/",
       v1: "General Labor",
+      alt: "Logo AA Transportation",
     },
     {
       id: 9,
@@ -183,6 +190,7 @@ const VacanciesPage = () => {
       location: "Greenville, Pennsylvania",
       website: "https://www.goanderson.com/",
       v1: "General Labor",
+      alt: "Logo Anderson Coach",
     },
   ];
   return (
@@ -207,6 +215,7 @@ const VacanciesPage = () => {
               v2,
               website,
               style,
+              alt,
             }) => {
               const uniqueId = `modal-${id}`;
 
@@ -217,15 +226,18 @@ const VacanciesPage = () => {
                 >
                   <div className="max-w-[300px] hover:scale-110 duration-700">
                     <a href={website} target="_blank">
-                      <img
+                      <Image
                         src={logo}
-                        className="object-contain  md:w-[350px] w-[200px] "
+                        width={200}
+                        height={200}
+                        className="object-contain"
+                        alt={alt}
                       />
                     </a>
                   </div>
-                  {/* <p className="font-bold text-xl">{name}</p> */}
+
                   <p className={`${styles.sectionText}`}>{description}</p>
-                  {/* <p className="badge badge-primary badge-outline capitalize">{category}</p> */}
+
                   <div>
                     <button
                       className="btn btn-primary uppercase btn-outline mb-6"
@@ -275,11 +287,14 @@ const VacanciesPage = () => {
 
                         <div className="flex gap-4 justify-end items-center ">
                           <a href={website} target="_blank">
-                            <img
+                            <Image
                               src={logo}
-                              className="h-20 w-20 object-contain mx-auto "
-                              alt=""
+                              width={80}
+                              height={80}
+                              alt={alt}
+                              className="object-contain mx-auto"
                             />
+
                             <span className="link link-hover hover:text-primary">
                               {positionsContent.website}
                             </span>

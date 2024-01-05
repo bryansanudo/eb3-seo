@@ -254,7 +254,7 @@ const ServicesPage = () => {
           <div className="md:w-1/2 flex items-center justify-center ">
             <Image
               src="/job.jpg"
-              alt="job img"
+              alt="EB3 visa requirements"
               width={500}
               height={500}
               className="rounded-3xl  object-contain mask mask-parallelogram"
@@ -331,7 +331,11 @@ const ServicesPage = () => {
         {/* 4 Emojis */}
 
         {/* How it works */}
-        <ImgContent img="/coworkers.jpg" title2={howContent.title1}>
+        <ImgContent
+          img="/coworkers.jpg"
+          alt="Employment-based green card process"
+          title2={howContent.title1}
+        >
           <p className={`${styles.sectionText}`}>{howContent.p1}</p>
           <div className="flex flex-col items-start ml-4 mt-4 text-left">
             <p>
@@ -357,6 +361,7 @@ const ServicesPage = () => {
           img="/especialist.jpg"
           title1={ourContent.title1}
           title2={ourContent.title2}
+          alt="Employment-based immigration lawyer"
         >
           <p className={`${styles.sectionText} mb-6`}>{ourContent.p1}</p>
           <p className={`${styles.sectionText} `}>{ourContent.p2}</p>

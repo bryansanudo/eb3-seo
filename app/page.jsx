@@ -137,7 +137,7 @@ const Home = () => {
           img="/home1.jpg"
           title1={jamesContent.title1}
           title2={jamesContent.title2}
-          alt="eb3-usa"
+          alt="Employment-based immigration USA Flag"
         >
           <p className={`${styles.sectionText}`}>{jamesContent.p1}</p>
           <p className={`${styles.sectionText} mt-2`}>{jamesContent.p2}</p>
@@ -184,7 +184,7 @@ const Home = () => {
           img="/usa3.jpg"
           title1={wantContent.title1}
           title2={wantContent.title2}
-          alt="eb3-usa"
+          alt="Employment-based green card process, contact us"
         >
           <p className={`${styles.sectionText} mb-6`}>{wantContent.p1}</p>
           <p className={`${styles.sectionText}`}>{wantContent.p2}</p>
@@ -205,7 +205,7 @@ const Home = () => {
         <ImgContent
           img="/contact2.jpg"
           title2={lookingContent.title}
-          alt="eb3-usa"
+          alt="Legal assistance for US migration"
         >
           <p className={`${styles.sectionText}`}>{lookingContent.p1}</p>
         </ImgContent>

@@ -58,7 +58,7 @@ const ServicesCard = ({ language }) => {
             <div className="flex flex-col items-center justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 gap-4">
               <Image
                 src="/icons/success.jpg"
-                alt="succes"
+                alt="icon Historic Success"
                 width={50}
                 height={50}
               />
@@ -73,7 +73,7 @@ const ServicesCard = ({ language }) => {
             <div className="flex flex-col items-center justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 gap-4">
               <Image
                 src="/icons/opportunity.jpg"
-                alt="succes"
+                alt="icon Opportunity Awaits"
                 width={50}
                 height={50}
               />
@@ -88,7 +88,7 @@ const ServicesCard = ({ language }) => {
             <div className="flex flex-col items-center justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 gap-4">
               <Image
                 src="/icons/versatile.jpg"
-                alt="succes"
+                alt="icon Versatile Process"
                 width={50}
                 height={50}
               />

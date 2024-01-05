@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { staggerContainer, slideIn } from "@/utils/motion";
 import Image from "next/image";
 
-const CompaniesImgContent = ({ img, title1, title2, children }) => {
+const CompaniesImgContent = ({ img, title1, title2, children, alt }) => {
   return (
     <motion.div
       variants={staggerContainer()}
@@ -20,7 +20,7 @@ const CompaniesImgContent = ({ img, title1, title2, children }) => {
           src={img}
           width={500}
           height={300}
-          alt="image description"
+          alt={alt}
           className="rounded-3xl  object-contain  "
         />
       </motion.div>
