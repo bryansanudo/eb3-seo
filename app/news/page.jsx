@@ -3441,13 +3441,13 @@ const NewsPage = () => {
       setCurrentPage(currentPage - 1);
     }
   };
-  /* useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, [currentPage]);
 
   useEffect(() => {
     setCurrentPage(1);
-  }, [filterWord]); */
+  }, [filterWord]);
 
   return (
     <div className="max-w-6xl pt-40  mx-auto px-6">
