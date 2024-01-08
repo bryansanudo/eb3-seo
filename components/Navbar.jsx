@@ -27,6 +27,7 @@ const Navbar = () => {
       resources: "resources",
       contact: "contact",
       vacancies: "vacancies",
+      news: "news",
       language: "Language",
       looking: "Looking For Employees?",
     },
@@ -37,6 +38,7 @@ const Navbar = () => {
       resources: "recursos",
       contact: "contacto",
       vacancies: "vacantes",
+      news: "noticias",
       language: "Idioma",
       looking: "¿Buscando Empleados?",
     },
@@ -47,6 +49,7 @@ const Navbar = () => {
       resources: "recursos",
       contact: "contacto",
       vacancies: "vagas",
+      news: "notícias",
       language: "língua",
       looking: "à procura de empregados?",
     },
@@ -57,6 +60,7 @@ const Navbar = () => {
       resources: "Ressources",
       contact: "Contact",
       vacancies: "Offres d'emploi",
+      news: "nouvelles",
       language: "langue",
       looking: "à la recherche d'employés?",
     },
@@ -128,6 +132,11 @@ const Navbar = () => {
       id: 7,
       link: "/vacancies",
       name: navbarContent.vacancies,
+    },
+    {
+      id: 8,
+      link: "/news",
+      name: navbarContent.news,
     },
   ];
 
