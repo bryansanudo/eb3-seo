@@ -133,11 +133,11 @@ const Navbar = () => {
       link: "/vacancies",
       name: navbarContent.vacancies,
     },
-    {
+    /*  {
       id: 8,
       link: "/news",
       name: navbarContent.news,
-    },
+    }, */
   ];
 
   const [dropdown, setDropdown] = useState(true);
